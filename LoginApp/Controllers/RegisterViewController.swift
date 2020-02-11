@@ -40,7 +40,7 @@ class RegisterViewController: UIViewController {
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        print("Preparing for segue \(segue.identifier)")
+        //print("Preparing for segue \(segue.identifier)")
         if segue.identifier == "DetailSegue" {
             let loginViewController = segue.destination as! LoginViewController
             loginViewController.user = self.user
